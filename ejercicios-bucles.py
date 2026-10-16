@@ -1,4 +1,4 @@
-#Ejercicio 1
+""" #Ejercicio 1
 #1. Bucle for: Sintaxis basica (iterar listas)
 #Enunciado: Dada una lista de precios de un carrito de la compra [15.50, 20.0. 35.75, 10.0]. 
 #calcula el total iterando sobre la lista (sin usar la función sum()).
@@ -42,4 +42,29 @@ for index in range(20, -2, -2):
 # "Estudiar Python']. Imprimelas numeradas empezando desde el 1 para mostrarlas como una lista odenada.
 tareas = ["Comprar leche", "Llamar al medico", "Estudiar Python"]
 for index, tarea in enumerate(tareas, start=1):
-    print(f"{index}. {tarea}")
+    print(f"{index}. {tarea}") """
+
+
+
+
+
+# 8. List comprehensions con condicionales
+# Enunciado: Dada la lista palabras = ["sol", "murciélago", "mar", "elefante", "luz"], usa una list
+# comprehension para filtrar y guardar en una nueva lista solo las palabras que tengan más de 3
+# letras.
+
+#para cosas cortas como esto usamos una lista de comprension
+
+palabras = ["sol", "murciélago", "mar", "elefante", "luz"] 
+largas = [p for p in palabras if len(p) > 3]
+print(largas)
+
+#hacerlos con un for each
+
+palabras = ["sol", "murciélago", "mar", "elefante", "luz"] 
+largas = []
+
+for palabra in palabras: #por objeto en la lista
+        if len(palabra) > 3: #si la longitud del objeto es mayor que 3
+                largas.append(palabra)
+print(largas)                
