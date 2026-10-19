@@ -1,4 +1,5 @@
-#for es vcuando sabemos cuantas veces se tiene que ejecutar, while es cuadno nno sabesmos cuantas veces, si se logra de una, dos, o mil
+#for es vcuando sabemos cuantas veces se tiene que ejecutar, while es cuadno nno sabesmos cuantas veces, 
+# si se logra de una, dos, o mil
 
 
 #con while
