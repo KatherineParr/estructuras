@@ -8,6 +8,8 @@ PersonajeStarWars.mostrar_censo_galactico()
 luke = PersonajeStarWars("Luke Skywalker", "Jedi", "Sable de luz verde", 14500)
 vader = PersonajeStarWars("Darth Vader", "Sith", "Sable de luz rojo", 27000)
 han = PersonajeStarWars("Han Solo", "Contrabandista", "Blaster", 15)
+grogu = PersonajeStarWars("Grogu", "machango", "fuerza", 30000)
+
 # Usamos los métodos de instancia públicos
 luke.presentarse()
 vader.atacar()
