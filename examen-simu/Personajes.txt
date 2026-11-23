@@ -1,0 +1,13 @@
+Aragorn, 10, 1.98, 87, mortal
+Legolas, 10, 1.83, SILVANO, inmortal
+Boromir, 6, 1.93, 40, mortal
+Arwen, 9, 1.78, BOSQUE, inmortal
+Galadriel, 10, 1.74, LUZ, inmortal
+Faramir, 6, 1.90, 35, mortal
+Eomer, 7, 1.85, 28, mortal
+Elrond, 12, 2.13, LUZ, inmortal
+Denethor, 9, 1.93, 62, mortal
+Bardo, 9, 1.95, 42, mortal
+Glorfindel, 11, 1.91, LUZ, inmortal
+Mulluba, 12, 1.87, OSCURO, inmortal
+Cumzaiss, 10, 1.93, OSCURO, inmortal

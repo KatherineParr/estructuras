@@ -18,16 +18,16 @@ class PersonajeTeletubby:
         self.__nivel_felicidad = 100
 
 
-#el metodo to string
-# Método especial __str__
-# Define la representación en formato texto del objeto
-def __str__(self):
-    return (f"Teletubby: {self.nombre} | Color: {self. color} |"
-    f"Antena: {self.antena} | Objeto: {self.objeto_favorito} |"
-    f"Felicidad: {self._nivel_felicidad} | Hambre: {self.__nivel_hambre}")
+    #el metodo to string
+    # Método especial __str__
+    # Define la representación en formato texto del objeto
+    def __str__(self):
+        return (f"Teletubby: {self.nombre} | Color: {self.color} |"
+        f"Antena: {self.antena} | Objeto: {self.objeto_favorito} |"
+        f"Felicidad: {self._nivel_felicidad} | Hambre: {self.__nivel_hambre}")
 
 
-#Ahora creamos los metodos de instancia (funciones)
+    #Ahora creamos los metodos de instancia (funciones)
 
     def saludar(self):
         #podemos hacer tipo to string con el f, llamando los atributos con self
