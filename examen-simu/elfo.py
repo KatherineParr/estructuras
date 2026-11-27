@@ -2,7 +2,7 @@ from personajes import Personaje
 class Elfo(Personaje):
 
     #constructor con tipo elfo
-    def __init__(self, nombre, nivel, altura, tipo_elfo):
+    def __init__(self, nombre: str, nivel:int, altura:float, tipo_elfo:str) -> None:
                 #primero los ya inicializados con super
                 super().__init__(nombre, nivel, altura)
                 #ahora el nuevo
@@ -14,4 +14,4 @@ class Elfo(Personaje):
         _, dividido = original.split("Nombre:", 1)
         # _ recibe la primera parte que no necesitamos y dividido guarda el texto restante, y la coma separa los dos valores
 
-        return f"Nombre Elfo: {dividido}; TipoElfo: {self.nivel}"
+        return f"Nombre Elfo: {dividido}; TipoElfo: {self.tipo_elfo}"
