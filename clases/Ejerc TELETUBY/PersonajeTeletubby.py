@@ -29,27 +29,27 @@ def __str__(self):
 
 #Ahora creamos los metodos de instancia (funciones)
 
-    def saludar(self):
-        #podemos hacer tipo to string con el f, llamando los atributos con self
-        print(f"Soy {self.nombre}, mi color favorito es el {self.color}. Mi antena es {self.antena}.") #kill me
+def saludar(self):
+    #podemos hacer tipo to string con el f, llamando los atributos con self
+    print(f"Soy {self.nombre}, mi color favorito es el {self.color}. Mi antena es {self.antena}.") #kill me
 
-    def jugar(self):
-        print(f"{self.nombre} esta jugando con {self.objeto_fav}")
-        #usamos un sertter para modificatr los atributos privados
-        self.__nivel_hambre += 20
-        self.__nivel_felicidad += 10
+def jugar(self):
+    print(f"{self.nombre} esta jugando con {self.objeto_fav}")
+    #usamos un sertter para modificatr los atributos privados
+    self.__nivel_hambre += 20
+    Self.__nivel_felicidad += 10
 
 
-    def comer_tubby_papilla(self):
-        print(f"{self.nombre} esta comiendo")
-        self.__nivel_hambre += 20
-        self.__nivel_felicidad = 0
+def comer_tubby_papilla(self):
+    print(f"{self.nombre} esta comiendo")
+    self.__nivel_hambre += 20
+    self.__nivel_felicidad = 0
 
-    #metodo getter
-    def ver_estado(self):
-        #añadir to string
-        return (f"{self.nombre}: nivel de hambre {self.__nivel_hambre}, "
-                f"nivel de felicidad {self.__nivel_felicidad}")
+#metodo getter
+def ver_estado(self):
+    #añadir to string
+    return (f"{self.nombre}: nivel de hambre {self.__nivel_hambre}, "
+            f"nivel de felicidad {self.__nivel_felicidad}")
 
 
 
